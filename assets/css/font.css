@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(225, 235, 235);
+}
+.fonts{
+    width: 450px;
+    height: 550px;
+    margin-left: 520px;
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 5px 10px 5px rgb(91, 104, 91);
+}
+
+@font-face {
+    font-family: first;
+    src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+ }
+ @font-face{
+    font-family: second;
+    src: url(../fonts/Roboto-Bold.ttf);
+ }
+ @font-face {
+    font-family: seventh;
+    src: url(../fonts/Caveat-VariableFont_wght.ttf);
+ }
+ @font-face {
+    font-family: sixth;
+    src: url(../fonts/AmaticSC-Bold.ttf);
+ }
+
+
+
+#first{
+    text-align: center;
+    padding-top: 75px;
+    font-family: first;
+    font-size: 45px;
+}
+#second{
+    text-align: center;
+    margin-top: 25px;
+    font-family: second;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+#third{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 27px;
+}
+#fourth{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: second;
+    font-size: 15px;
+    padding-top: 22px;
+
+}
+#fifth{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+#sixth{
+text-align: center;
+font-family: sixth;
+font-size: 30px;
+text-transform: uppercase;
+padding-top: 28px;
+}
+#seventh{
+    text-align: center;
+    font-family: seventh;
+    font-size: 16px;
+    padding-top: 25px;
+
+}
